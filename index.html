@@ -6,7 +6,7 @@
         <meta name="author" content="" />
         <title>Hi Likh ke bhej</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -53,7 +53,7 @@
             } else {
                 //Register the ServiceWorker
                 navigator.serviceWorker.register('pwabuilder-sw.js', {
-                    scope: '/hi-likh-ke-bhej/'
+                    scope: './hi-likh-ke-bhej/'
                 }).then(function(reg) {
                     console.log('Service worker has been registered for scope:'+ reg.scope);
                 });
