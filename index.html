@@ -39,7 +39,7 @@
                     
                     <div>
                         <label for="phone">Phone</label>
-                        <input class="flex-item input" placeholder="Phone Number" value="8824468671" type="text" id="phone" name="phone">
+                        <input class="flex-item input" placeholder="Phone Number" type="text" id="phone" name="phone">
                     </div>
                     <button class="flex-item" id="submit-btn" type="submit">Send Message</button>
                 </form>
@@ -53,7 +53,7 @@
             } else {
                 //Register the ServiceWorker
                 navigator.serviceWorker.register('pwabuilder-sw.js', {
-                    scope: './'
+                    scope: '/hi-likh-ke-bhej/'
                 }).then(function(reg) {
                     console.log('Service worker has been registered for scope:'+ reg.scope);
                 });
