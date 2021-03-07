@@ -7,6 +7,21 @@
     "theme_color": "#e4f0e4",
     "display": "standalone",
     "icons": [
-       
+        {
+        "src": "images/icon144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+        },
+        {
+        "src": "images/icon512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+        },
+        {
+        "src": "images/icon72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+        }
     ]
 }
