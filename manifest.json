@@ -1,0 +1,12 @@
+{
+    "name": "Hi Likh Ke Bhej",
+    "short_name": "Hi Likh Ke Bhej",
+    "lang": "en-US",
+    "start_url": "/",
+    "background_color": "#1ebea5",
+    "theme_color": "#e4f0e4",
+    "display": "standalone",
+    "icons": [
+       
+    ]
+}
